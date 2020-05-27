@@ -4,7 +4,7 @@
   "description": "A simple CLI tool to check your internet connection.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nickkelley42/check-internet/issues"
   },
-  "homepage": "https://github.com/nickkelley42/check-internet#readme"
+  "homepage": "https://github.com/nickkelley42/check-internet#readme",
+  "devDependencies": {
+    "qunit": "^2.10.0"
+  }
 }
