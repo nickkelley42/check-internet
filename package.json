@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A simple CLI tool to check your internet connection.",
   "main": "index.js",
+  "bin": {
+    "check-internet": "./index.js"
+  },
   "scripts": {
     "test": "npx qunit tests.js"
   },
@@ -26,5 +29,8 @@
   "homepage": "https://github.com/nickkelley42/check-internet#readme",
   "devDependencies": {
     "qunit": "^2.10.0"
+  },
+  "dependencies": {
+    "ping": "^0.2.3"
   }
 }
